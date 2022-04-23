@@ -28,7 +28,7 @@ export default function useJsonFetch(url, vars) {
                     error: response.status.toString(),
                 }
                 setProfile(obj);
-            } else{
+            } else {
                 let obj = {
                     data: '',
                     loading: response.status.toString(),
